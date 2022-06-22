@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topnav{
+    display: flex;
+    padding: 20px 120px;
+}
+
+.topnav  h3{
+    text-transform:uppercase;
+    color: rgb(3, 192, 0);
+}
+
+.topnav .nav ul{
+    list-style-type: none;
+}
+
+.topnav .nav ul li{
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+
+.topnav .nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.topnav .nav ul li:first-child{
+    color:rgb(3, 192, 0);
+    padding-left: 200px;
+}
+
+.topnav .nav ul li image{
+    size: 2px;
+}
+
+.topnav .started{
+    padding-left: 200px;
+}
+
+.topnav .started a{
+    text-decoration: none;
+    background-color:rgb(4, 255, 0) ;
+    border: 2px solid;
+    border-radius: 25px;
+    font-size: 10px;
+    padding:5px 10px;
+    color: white;
+}
+.topnav .started a:hover{
+    background-color:rgb(3, 192, 0) ;
+}
+
+.body .bodyimg{
+    width: 100%;
+}
+
+.body {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.body .top{
+    position: absolute;
+    bottom: 500px;
+    left:80px;
+    text-align: left;
+}
+.body .top .button{
+
+    margin-top: 25px;
+}
+.body .top .button a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 6px 28px;
+    border-radius: 25px;
+}
+
+.aboutin{
+    display: flex;
+    margin: 55px;
+    color:rgb(69, 69, 69);
+    
+}
+
+.about .aboutin .aboutLeft h3{
+    font-weight: 600;
+    font-size: 26px;
+    color:rgb(69, 69, 69);
+}
+
+.about .aboutin .aboutLeft p{
+    margin-top: 25px;
+    color:rgb(69, 69, 69);
+}
+
+.about .aboutin .aboutLeft ul{
+    list-style-type: none;
+}
+
+.about .aboutin .aboutLeft ul li{
+    padding-top: 20px;
+    color:rgb(69, 69, 69);  
+}
+
+.about .aboutin .aboutLeft ul li i{
+    color: rgb(3, 192, 0);
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.about .aboutRight img{
+    width: 100%;
+}
+
+.incount{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.count h3{
+    font-size: 48px;
+    color: rgb(3, 192, 0);
+    font-weight: 700;
+}
+
+.count p{
+    color:rgb(69, 69, 69);  
+    margin-top: 5px;
+}
+
+.whyUsin{
+    padding: 55px;
+    display: flex;
+    flex:2 1 auto;
+}
+
+.whyUsin .whyUs1{
+    color:white;
+    background-color: rgb(3, 192, 0);
+    padding: 40px;
+    text-align: center;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.whyUsin .whyUs1 p{
+    text-align: left;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.whyUsin .whyUs1 h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.whyUsin .whyUs1 a{
+    display: inline-block;
+    background-color: rgb(125, 255, 123);
+    border: 1px solid rgb(156, 255, 155);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 7px 40px;
+    margin-top: 10px;
+    color: white;   
+}
+.whyUsin .whyUs1 a:hover{
+    background-color: white;
+    color:rgb(3, 192, 0);
+}
+
+.whyUsin .whyUsRight{
+    margin: 10px;
+    display: flex;
+    flex: 2;
+    text-align: center;
+    color:rgb(85, 85, 85);
+}
+
+.whyUsin .whyUsRight h3{
+    color:rgb(49, 49, 49);
+    margin-bottom: 30px;
+}
+.whyUsin .whyUsRight p{
+   font-size: 13px;
+}
+
+.whyUsin .whyUs2{
+    border: 1px solid rgb(235, 235, 235) ;
+    margin-left: 20px;
+    padding: 50px 30px;
+}
+
+.whyUsin .whyUs2 i{
+    font-size: 32px;
+    color:rgb(3, 192, 0);
+    background: #ecf9f0;
+    border-radius: 50%;
+   padding: 20px;
+   display: inline-block;
+   margin-bottom: 40px;
+}
+
+
+.features .features_top{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 55px 25px 55px;
+}
+.features .features_top .features_top1{
+    border: 1px solid rgb(237, 237, 237);
+   width:100%;
+   margin-right: 20px;
+   padding:15px 20px;
+}
+
+.features .features_top .features_top1 i{
+    color:#ffbb2c;
+    font-size: 32px;
+}
+
+.features .features_top .features_top1:hover{
+    border: 1px solid  rgb(3, 192, 0);
+    color: rgb(3, 192, 0);
+}
+
+.features .features_top .features_top1 p{
+    display:inline;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.courses{
+    padding: 55px;
+}
+
+.courses h1{
+    padding-bottom: 40px;
+}
+.courses .course{
+    display: flex;
+}
+.courses .course .course1{
+    margin-right: 20px;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 15px;
+}
+
+.courses .course .course1 .coursep{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+.courses .course .course1 .coursep .coursep1{
+    background-color: rgb(3, 192, 0);
+    color:white;
+    padding: 8px 20px;
+    font-size: 12px;
+}
+.courses .course .course1 h3{
+    margin-bottom: 20px;
+}
+.courses .course img{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    padding: 55px;
+    background-color: rgb(246, 246, 246);
+}
+
+.footer .footer1{
+    margin-right: 50px;
+}
+.footer .footer1 h5{
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+.footer .footer1 .add{
+    padding: 20px 0;
+}
+
+.footer .footer1 ul{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer1 ul i{
+    color: rgb(3, 192, 0);
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.footer .footer1 input{
+    display: inline;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 10px 50px; 
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+
+.footer .footer1 .button{
+    position:absolute;
+    margin-left: -20px;
+    background-color: rgb(3, 192, 0);
+    color: white;
+    padding: 10px 25px; 
+   
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 55px;
+    background-color: rgb(228, 228, 228);
+}
+
+.last .last1 span{
+    color:rgb(3, 192, 0);
+}
+.last .last2 a{
+    transition: .3s;
+}
+
+.last .last2 i{
+    color: rgb(3, 192, 0);
+    padding: 5px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design */
+@media screen and (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+       
+    }
+    
+    .topnav{
+        display: flex;
+        padding: 0px;
+    }
+    .top{
+        padding: 10px 0 10px 10px;
+        font-size: 2rem;
+    }
+
+    .nav{
+        display: none;
+
+    }
+
+    .container{
+        color:whitesmoke;
+    }
+
+    .topnav .started{
+        margin-left: -9rem;
+        margin-top: 1.5rem;
+    }
+    
+.topnav .started a{
+    text-decoration: none;
+    background-color:rgb(3, 206, 0) ;
+    border: 2px solid;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: white;
+}
+
+.body {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.body .top{
+    position: absolute;
+    bottom:3.5rem;
+    left:0;
+    right: 2rem;
+    text-align: left;
+    font-size: .75rem;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
+.body .top .button{
+
+    margin-top: 25px;
+}
+.body .top .button a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 6px 28px;
+    border-radius: 25px;
+}
+.aboutin{
+    display: flex;
+    flex-direction: column-reverse;
+    margin:4rem 1rem;
+    
+    color:rgb(69, 69, 69);
+}
+.aboutin .aboutRight{
+    position: relative;
+
+}
+
+.aboutin ul{
+    padding: 0;
+}
+
+.incount{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.incount .count1{
+    width: 50%;
+    padding-bottom: 4rem;
+}
+
+.incount .count2{
+    width: 50%;
+}
+.incount .count3{
+    width: 50%;
+}
+.incount .count4{
+    width: 50%;
+}
+
+.whyUsin{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.whyUsin .whyUs1{
+    color:white;
+    background-color: rgb(3, 192, 0);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.whyUsin .whyUsRight h3{
+    color:rgb(49, 49, 49);
+    margin-bottom: 30px;
+}
+.whyUsin .whyUsRight p{
+   font-size: larger;
+   padding: 1rem;
+}
+.whyUsin .whyUsRight{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:rgb(85, 85, 85);
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.whyUsin .whyUs2{
+    border: 1px solid rgb(235, 235, 235) ;
+    margin: 0;
+    margin: 1rem 0;
+}
+
+.whyUsin .whyUs2 i{
+    font-size: 32px;
+    color:rgb(3, 192, 0);
+    background: #ecf9f0;
+    border-radius: 50%;
+   display: inline-block;
+  
+}
+
+.features .features_top{
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    padding:0 1rem;
+    display: none;
+}
+
+ #mobilev{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    padding:0 1rem;
+}
+.features .features_top .features_top1{
+    border: 1px solid rgb(217, 217, 217);
+    width: 80%;
+    margin-bottom: 30px;
+    color:black;
+
+}
+
+.features .features_top .features_top1 i{
+    color:#ffbb2c;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.features .features_top .features_top1 p{
+    font-size: 1.5rem;
+}
+
+
+.courses{
+    padding: 0;
+    margin: 0;
+}
+
+.courses{
+    padding: 5rem 0 3rem 1rem;
+    margin: 0;
+}
+.courses h1{
+    padding-bottom: 40px;
+    color:rgb(33, 33, 33)
+}
+
+.courses p{
+    color:rgb(91, 91, 91)
+}
+.courses .course{
+    display: flex;
+    flex-direction: column;
+}
+.courses .course .course1{
+    border: 1px solid rgb(236, 236, 236);
+    margin-bottom: 1rem;
+}
+
+.courses .course .course1 .coursep{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .course .course1 .coursep .coursep1{
+    background-color: rgb(3, 192, 0);
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.courses .course .course1 .coursep .coursep1 p{
+    color: white;
+}
+.courses .course .course1 h3{
+    margin-bottom: 0px;
+    color: rgb(54, 54, 54);
+}
+
+.courses .course .course1 p{
+    margin-bottom: 00px;
+    color: rgb(73, 73, 73);
+}
+.courses .course img{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 246, 246);
+    color: rgb(23, 23, 23);
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer .footer1 h5{ 
+    margin: 0;
+    padding: 0;
+    padding: 2rem 0 .5rem 0;
+}
+
+
+.footer .footer1 ul{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer .footer1 ul{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 3;
+}
+
+.footer .footer1 ul i{
+    color: rgb(3, 192, 0);
+    font-size: 14px;
+    
+}
+
+.footer .footer1 input{
+    display: inline;
+    border: 1px solid rgb(220, 220, 220);
+    
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+
+.footer .footer1 .button{
+    position:absolute;
+    background-color: rgb(3, 192, 0);
+    color: white;
+    margin-left: -5rem;
+    
+   
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    color: #000;
+    background-color: rgb(228, 228, 228);
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+
+.last .last1 span{
+    color:rgb(3, 192, 0);
+}
+.last .last2 a{
+    transition: .3s;
+}
+
+.last .last2 i{
+    color: rgb(3, 192, 0);
+    padding: 5px;
+    font-size: 28px;
+}
+
+.last .last1 p{
+    padding-bottom: 1rem;
+}
+
+}
